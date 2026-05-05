@@ -1,0 +1,9 @@
+Flask==3.0.3
+PyMySQL==1.1.1
+cryptography==42.0.5
+Werkzeug==3.0.3
+gunicorn==21.2.0
+python-dotenv==1.0.1
+
+##If your project uses AES exncryption with fernet, this is enough because fernet comes from:
+from cryptography.fernet import Fernet
